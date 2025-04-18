@@ -8,13 +8,13 @@ export default function Footer() {
       <div className="w-full flex justify-between items-center max-w-xl mx-auto">
         <span className="inline-flex items-center gap-1">
           © {new Date().getFullYear()} {config.SITE_NAME}{" "}
-          <Link href="#top">
+          <Link href="#top" className="animate-bounce">
             <ArrowUpIcon height={12} width={12} />
           </Link>
         </span>
 
         <p>
-          🟦 MADE BY{" "}
+          🟦 BY{" "}
           <Link href="https://dris.one" target="_blank" className="underline">
             DRIS
           </Link>
