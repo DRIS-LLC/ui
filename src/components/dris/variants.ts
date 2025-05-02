@@ -40,6 +40,12 @@ export const colorVariants = {
       "from-red-400 to-red-200 group-hover:from-red-500 group-hover:to-red-300 group-active:from-red-400 group-active:to-red-200 border-red-100",
     shadow: "text-red-100",
   },
+  amber: {
+    base: "from-orange-200 via-orange-500 to-orange-100 text-orange-900 border-orange-800",
+    inner:
+      "from-orange-400 to-orange-200 group-hover:from-orange-500 group-hover:to-orange-300 group-active:from-orange-400 group-active:to-orange-200 border-orange-100",
+    shadow: "text-orange-100",
+  },
   daisy: {
     base: "from-yellow-200 via-yellow-500 to-yellow-100 text-yellow-900 border-yellow-800",
     inner:
